@@ -3,7 +3,7 @@ using namespace std;
 
 class myTime{
 	pubic:
-		int hore;
+		int hour;
 		int minute;
 		void prinTime();
 };
