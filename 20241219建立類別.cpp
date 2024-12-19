@@ -7,7 +7,7 @@ class myTime{
 		int minute;
 		void prinTime();
 };
-
-int main(){
-	
+void  mytime::prinTime(){
+	cout<<hour<<":"<<minute<<"\n";
 }
+int main(){
