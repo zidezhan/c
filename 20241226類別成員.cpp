@@ -12,3 +12,15 @@ class myTime{
 		int getMinute(){return minute;}
 		void printTime();
 };
+
+bool myTime::validTime(int h,int m){
+	if(valiTime(h,m)){
+		hour = h;
+		minute = m;
+		return true;
+	}
+	else  return false;
+}
+void myTime::printTime(){
+	cont<<hour<<":"<<minute<<"\n";
+}
